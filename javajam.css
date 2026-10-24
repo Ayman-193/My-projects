@@ -1,0 +1,184 @@
+/*
+Team Members:
+
+    Name: Ayman Alamri
+    Student ID: 446001160
+
+    Tasks:
+    Completed all tasks for the JavaJam Coffee House website
+*/
+
+
+
+
+* { 
+    box-sizing: border-box; 
+}
+
+
+header, nav, main, footer { 
+    display: block; 
+}
+
+
+body {
+    background-image: url(background.gif);
+    background-color: #ffffcc;
+    color: #221811;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+
+#wrapper {
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #231814; 
+    min-width: 900px;
+    max-width: 1280px;
+    box-shadow: 3px 3px 3px #221811;
+}
+
+header {
+    background-color: #ccaa66;
+    text-align: center;
+    height: 100px;
+    background-image: url(javajamlogo.jpg);
+    background-repeat: no-repeat;
+    padding-left: 220px;
+}
+
+
+nav {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    float: left;
+    width: 100px;
+    padding-top: 10px;
+    padding-left: 25px;
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding-left: 0;
+    padding-bottom: 15px;
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+
+nav a:link { 
+    color: #996633; 
+}
+nav a:visited { 
+    color: #ccaa66; 
+}
+nav a:hover { 
+    color: #ffffcc; 
+}
+
+
+main {
+    padding: 10px 20px 30px 20px;
+    margin-left: 200px;
+    margin-right: 20px;
+    background-color: #f2eab7;
+    overflow: auto;
+    clear: left;
+    display: block;
+}
+
+h2 {
+    background-color: #D2B48C;
+    font-size: 1.2em;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+
+.details {
+    padding-left: 20%;
+    padding-right: 20%;
+    overflow: auto;
+}
+
+
+.floatleft {
+    float: left;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+
+.floatright {
+    float: right;
+    padding-left: 20px;
+}
+
+
+table {
+    margin: auto;
+    width: 90%;
+    border-spacing: 0;
+    background-color: #ffffcc;
+}
+
+td, th {
+    padding: 10px;
+}
+
+tr:nth-of-type(odd) {
+    background-color: #d2b48c;
+}
+
+
+form {
+    padding: 2em;
+}
+
+label {
+    float: left;
+    display: block;
+    text-align: right;
+    width: 8em;
+    padding-right: 1em;
+}
+
+input, textarea {
+    display: block;
+    margin-bottom: 1em;
+}
+
+#mySubmit {
+    margin-left: 9.5em;
+}
+
+
+audio {
+    display: block;
+    margin-top: 1em;
+}
+
+
+footer {
+    background-color: #D2B48C;
+    font-size: .60em;
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 10px;
+    border-top: 2px solid #221811;
+}
+
+footer a:link { 
+    color: #ffffcc; 
+}
+footer a:visited { 
+    color: #f2eab7; 
+}
+footer a:hover { 
+    color: #330000; 
+}
